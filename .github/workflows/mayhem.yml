@@ -60,7 +60,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile_Has_edge_property
+          - mayhem/Mayhemfile_has_edge_property
 
     steps:
       - uses: actions/checkout@v3

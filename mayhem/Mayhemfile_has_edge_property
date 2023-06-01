@@ -1,0 +1,5 @@
+project: pmp-library-proj
+target: has-edge-property
+cmds:
+  - cmd: /fuzz_has_edge_property
+    libfuzzer: true
